@@ -1,0 +1,22 @@
+{
+  "name": "tyro-ui",
+  "private": true,
+  "version": "1.0.0",
+  "description": "一款基于Remax框架开发的多端组件库",
+  "main": "index.js",
+  "keywords": [],
+  "author": "kevin",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -w -t",
+    "build": "cross-env NODE_ENV=production remax build -t"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "remax": "^2.6.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
